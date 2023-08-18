@@ -22,6 +22,13 @@ Therefore, in addition to predicting the similarity category, our goal is to cla
 - N/A (for cases where the subject of the two sentences is not the same or indistinguishable)
 
 The PerSICK dataset doesn't provide columns based on the subject of the sentences. Hence, it's our responsibility to extract this information. We can leverage the Dependency parsing technique from well-known Persian language processing libraries like Parsivar and Hazm to accomplish this task.
+<div align="center"><img src="https://github.com/HosnawHb/Multi-Label-Text-Classification/blob/main/Model.png?raw=true"width="60%"/></div> </br >
+
+To summarize, this project involves accomplishing two tasks simultaneously: </br>
+classifying the degree of similarity and determining the subject of a pair of input sentences. To achieve this, we will employ multi-label classification.</br>
+The neural network will take two separate inputs for each sentence and predict 11 labels. Five of the labels correspond to the similarity degree categories (1 to 5), while the remaining six labels represent different subject categories (animals, children, other, etc.). The neural network will learn to predict one label from the similarity degree categories and another label from the active subject categories.</br> </br>
+Please refer to the detailed report in the repository for further information about data preprocessing, model architecture, and evaluation results.
+
 
 
 
