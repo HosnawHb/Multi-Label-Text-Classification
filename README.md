@@ -1,6 +1,10 @@
 # Multi Label Text Classification
 👋 Welcome to my GitHub project! </br >
 
+## Data
+- In this project I worked with PerSICK dataset which contains three thousand rows and three columns. Each line contains two sentences, sentence1 and sentence2, and the degree of similarity between these two sentences is determined by score. </br>
+ For more detailed information about this dataset, you can check out [PerSICK dataset](https://github.com/Ledengary/COPER/blob/main/Datasets/PerSICK.csv). </br>
+
 ## Purpose
 - The purpose of this project was to deal with Data Labeling, Multi-label Recurrent Neural Classification, Text Processing and Classification Networks.
 ## Description
