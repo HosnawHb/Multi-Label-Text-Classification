@@ -31,8 +31,12 @@ The PerSICK dataset doesn't provide columns based on the subject of the sentence
 To summarize, this project involves accomplishing two tasks simultaneously: </br>
 classifying the degree of similarity and determining the subject of a pair of input sentences. To achieve this, we will employ multi-label classification.</br>
 The neural network will take two separate inputs for each sentence and predict 11 labels. Five of the labels correspond to the similarity degree categories (1 to 5), while the remaining six labels represent different subject categories (animals, children, other, etc.). The neural network will learn to predict one label from the similarity degree categories and another label from the active subject categories.</br> </br>
-Please refer to the detailed report in the repository for further information about data preprocessing, model architecture, and evaluation results.
 
+## Team Members
+[Hosna Habibi](https://github.com/HosnawHb) </br>
+[Pooya Kavosh](https://github.com/Jarvis017) </br>
+
+Please refer to the code in the repository for a step-by-step guide on implementing the neural network, training the model, and evaluating its performance.
 
 
 
